@@ -26,10 +26,10 @@ body {
   /* FONTS */
   --headingFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --bodyFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  --smallText: 0.7em;
+  --smallText: 1.6rem;
 
   /* OTHER */
-  --borderRadius: 0.25rem;
+  --borderRadius: 0.5rem;
   --letterSpacing: 0.5px;
   --transition: 0.3s ease-in-out all;
   --maxWidth: 1120px;
@@ -37,24 +37,28 @@ body {
 }
 
 html {
-  font-size: 125%;
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+  /* font-size: 125%; */
 } /*20px*/
 
 section {
-  padding: 2rem 5rem;
+  padding: 4rem 10rem;
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.7;
 }
 
 p {
-  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
   max-width: 40em;
 }
 
 .subtitle {
-  margin-bottom: 2.5rem;
-  font-size: 1.2rem;
+  margin-bottom: 5rem;
+  font-size: 2.4rem;
   line-height: 1.6;
 }
 
@@ -94,7 +98,7 @@ h3,
 h4,
 h5 {
   margin: 0;
-  margin-bottom: 1.38rem;
+  margin-bottom: 3rem;
   font-family: var(--headingFont);
   font-weight: 400;
   line-height: 1.1;
@@ -103,33 +107,41 @@ h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 3.052rem;
+  font-size: 6.1rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.441rem;
+  font-size: 4.8rem;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.953rem;
+  font-size: 3.9rem;
   font-weight: 500;
 }
 
 h4 {
-  font-size: 1.563rem;
+  font-size: 3.1rem;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 2.5rem;
 }
 
 small,
 .text-small {
+  font-family: var(--bodyFont);
   font-size: var(--smallText);
 }
 
+.light small {
+  color: var(--lightParagraph);
+}
+
+.dark small {
+  color: var(--darkParagraph);
+}
 ul {
   list-style: none;
   padding: 0;
@@ -138,9 +150,10 @@ ul {
 /* BUTTON */
 .btn:link,
 .btn:visited {
+  font-size: 2rem;
   text-decoration: none;
   display: inline-block;
-  padding: 0.4rem 1.2rem;
+  padding: 0.8rem 2.4rem;
   cursor: pointer;
   font-weight: 600;
   border-radius: var(--borderRadius);
@@ -161,5 +174,5 @@ ul {
 }
 
 hr {
-  margin: 3rem 0;
+  margin: 6rem 0;
 }
