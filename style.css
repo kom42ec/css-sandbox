@@ -142,9 +142,14 @@ small,
 .dark small {
   color: var(--darkParagraph);
 }
-ul {
-  list-style: none;
+ul,
+ol {
   padding: 0;
+  padding-left: 5rem;
+}
+
+li {
+  font-size: 2rem;
 }
 
 /* BUTTON */
