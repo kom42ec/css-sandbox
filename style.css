@@ -152,6 +152,16 @@ li {
   font-size: 2rem;
 }
 
+.light ul,
+.light ol {
+  color: var(--lightParagraph);
+}
+
+.dark ul,
+.dark ol {
+  color: var(--darkParagraph);
+}
+
 /* BUTTON */
 .btn:link,
 .btn:visited {
