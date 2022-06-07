@@ -194,6 +194,12 @@ hr {
 .img {
   width: 100%;
   display: inline-block;
-  border: 2px solid var(--yellowColor);
+
   border-radius: var(--borderRadius);
+}
+.img-light {
+  border: 3px solid var(--darkBackground);
+}
+.img-dark {
+  border: 3px solid var(--lightBackgorund);
 }
