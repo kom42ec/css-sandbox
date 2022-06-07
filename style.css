@@ -191,3 +191,9 @@ li {
 hr {
   margin: 6rem 0;
 }
+.img {
+  width: 100%;
+  display: inline-block;
+  border: 2px solid var(--yellowColor);
+  border-radius: var(--borderRadius);
+}
