@@ -203,3 +203,25 @@ hr {
 .img-dark {
   border: 3px solid var(--lightBackgorund);
 }
+
+table {
+  width: 100%;
+  font-size: 2rem;
+  /* border: 3px solid var(--darkBackground); */
+  color: var(--lightHeadline);
+  border-collapse: collapse;
+  border-radius: var(--borderRadius);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 1rem 1rem 1rem 2.5rem;
+}
+th {
+  background-color: var(--darkBackground);
+  color: var(--darkHeadline);
+}
+tr:nth-child(even) {
+  background-color: var(--darkParagraph);
+}
