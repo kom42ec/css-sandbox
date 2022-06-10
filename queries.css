@@ -1,3 +1,8 @@
+@media (min-width: 140em) {
+  html {
+    font-size: 100%;
+  }
+}
 @media (max-width: 84em) {
   body {
     width: 65%;
@@ -10,6 +15,10 @@
   }
 }
 @media (max-width: 59em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
   body {
     width: 75%;
   }
@@ -22,5 +31,8 @@
 @media (max-width: 34em) {
   body {
     width: 85%;
+  }
+  table {
+    font-size: medium;
   }
 }
