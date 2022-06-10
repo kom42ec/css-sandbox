@@ -27,12 +27,12 @@
   body {
     width: 80%;
   }
+  table {
+    font-size: medium;
+  }
 }
 @media (max-width: 34em) {
   body {
     width: 85%;
-  }
-  table {
-    font-size: medium;
   }
 }
