@@ -28,7 +28,7 @@
     width: 80%;
   }
   table {
-    font-size: medium;
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 34em) {
