@@ -76,6 +76,9 @@ header {
   border-bottom: 1px solid var(--greenColor);
   padding-bottom: 2px;
 }
+a:-webkit-any-link {
+  color: var(--lightHeadline);
+}
 p {
   font-size: 2rem;
   margin-bottom: 3rem;
