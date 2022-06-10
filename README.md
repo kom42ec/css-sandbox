@@ -1,13 +1,13 @@
 # Global CSS Styles
 
-##Headings
+## Headings
 
-##Text
+## Text
 
-##Lists
+## Lists
 
-##Images
+## Images
 
-#Table
+## Table
 
-#Form
+## Form
