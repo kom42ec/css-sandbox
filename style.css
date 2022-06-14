@@ -277,3 +277,59 @@ blockquote {
 cite {
   font-size: 1.6rem;
 }
+
+/* FORM STYLING */
+
+#form {
+  max-width: 100%;
+  margin-right: auto;
+  background-color: var(--darkBackground);
+  padding: 5rem;
+  color: var(--darkHeadline);
+  border-radius: var(--borderRadius);
+}
+form {
+  font-size: 2rem;
+  font-family: inherit;
+}
+.form-group {
+  margin-bottom: 2rem;
+}
+label {
+  display: block;
+  color: var(--darkParagraph);
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid var(--darkHeadline);
+  border-radius: var(--borderRadius);
+  line-height: 1;
+}
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px dotted var(--greenColor);
+}
+input[type="submit"] {
+  margin-top: 3rem;
+  background-color: var(--greenColor);
+  border: none;
+  padding: 2rem;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00d4b3;
+  color: var(--darkHeadline);
+}
+input[type="reset"] {
+  margin-top: 1rem;
+  background-color: var(--darkBackground);
+  color: var(--darkHeadline);
+  border: none;
+  text-decoration: underline;
+  padding: 1rem;
+  cursor: pointer;
+}

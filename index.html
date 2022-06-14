@@ -163,7 +163,7 @@
       </div>
       <hr />
       <!-- FORM ELEMENT -->
-      <div id="form-wrap">
+      <div id="form">
         <form action="">
           <div class="form-group">
             <label for="name">Name</label>
@@ -185,10 +185,10 @@
           <div class="form-group">
             <label for="gender">Gender</label>
             <select name="gender" id="gender">
-              <option value=""></option>
+              <option selected value=""></option>
               <option value="male">Male</option>
               <option value="female">Female</option>
-              <option selected value="other">Other</option>
+              <option value="other">Other</option>
             </select>
           </div>
           <div class="form-group">
@@ -199,48 +199,7 @@
             <label for="birthday">Birthday</label>
             <input type="date" name="birthday" id="birthday" />
           </div>
-          <div class="form-group">
-            <label for="membership">Membership</label>
-            <input
-              type="radio"
-              name="membership"
-              value="simple"
-              id="membership"
-            />
-            Simple
-            <input
-              type="radio"
-              name="membership"
-              value="standard"
-              id="membership"
-              checked
-            />
-            Standard
-            <input
-              type="radio"
-              name="membership"
-              value="super"
-              id="membership"
-            />
-            Super
-          </div>
-          <div class="form-group">
-            <label for="likes">I like...</label>
-            <input type="checkbox" name="likes" value="bile" id="likes" />
-            Bike
-            <input
-              type="checkbox"
-              name="likes"
-              value="car"
-              id="likes"
-              checked
-            />
-            Car
-            <input type="checkbox" name="likes" value="boat" id="likes" />
-            Boat
-          </div>
           <input type="submit" value="Submit" />
-          <button type="submit">Submit</button>
           <input type="reset" value="Reset" />
         </form>
       </div>

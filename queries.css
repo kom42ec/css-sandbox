@@ -39,4 +39,18 @@
   body {
     width: 85%;
   }
+  #form {
+    padding: 2rem;
+  }
+  input,
+  textarea,
+  select {
+    padding: 0.5rem;
+  }
+  form {
+    font-size: 1.8rem;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
 }
