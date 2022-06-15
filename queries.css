@@ -22,6 +22,9 @@
   body {
     width: 75%;
   }
+  .nav-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (max-width: 44em) {
   body {
@@ -35,7 +38,7 @@
     padding: 0.8rem 0.8rem 0.8rem 1.6rem;
   }
   .nav-list {
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
   }
   .header-container {
     text-align: left;
@@ -51,6 +54,9 @@
 @media (max-width: 34em) {
   body {
     width: 85%;
+  }
+  .nav-list {
+    grid-template-columns: 1fr;
   }
   #form {
     padding: 2rem;

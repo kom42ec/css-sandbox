@@ -51,7 +51,7 @@ body {
 header {
   margin-top: 3rem;
   margin-bottom: 5rem;
-  padding: 5rem 0 2rem 0;
+  padding: 8rem 0 2rem 0;
   background-color: var(--darkBackground);
   border-radius: var(--borderRadius);
 }
@@ -62,17 +62,33 @@ header {
   color: var(--darkParagraph);
 }
 .navigation {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
+}
+.nav-section {
+  text-align: center;
 }
 .nav-list {
   list-style: none;
-  display: flex;
+
+  /* display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  gap: 2rem;
+  gap: 2rem; */
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 1rem;
+  justify-items: center;
   padding: 0;
   margin-bottom: 2rem;
+}
+
+.nav-list li {
+  width: 80%;
+  background-color: var(--darkParagraph);
+  padding: 0.7rem;
+  border-radius: var(--borderRadius);
 }
 
 .nav-list a:link,
@@ -84,8 +100,8 @@ header {
 }
 .nav-list a:hover,
 .nav-link a:active {
-  color: var(--greenColor);
-  border-bottom: 1px solid var(--greenColor);
+  color: var(--darkHeadline);
+  border-bottom: 1px solid var(--darkHeadline);
   padding-bottom: 2px;
 }
 
