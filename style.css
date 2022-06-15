@@ -196,22 +196,27 @@ li {
   display: inline-block;
   padding: 0.8rem 2.4rem;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: var(--borderRadius);
 }
 
 .btn:hover,
 .btn:active {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 
-.btn-light {
+.btn-primary {
+  border: 1px solid var(--greenColor);
   background-color: var(--greenColor);
   color: var(--lightHeadline);
+  margin-top: 1rem;
 }
 
-.btn-dark {
-  background-color: var(--yellowColor);
+.btn-secondary {
+  border: 1px solid var(--greenColor);
   color: var(--lightHeadline);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 hr {
