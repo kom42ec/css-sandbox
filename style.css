@@ -50,8 +50,8 @@ body {
 
 header {
   margin-top: 3rem;
-  margin-bottom: 5rem;
-  padding: 8rem 0 2rem 0;
+  margin-bottom: 8rem;
+  padding: 5rem 0 2rem 0;
   background-color: var(--darkBackground);
   border-radius: var(--borderRadius);
 }
