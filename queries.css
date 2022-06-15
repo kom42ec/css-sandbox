@@ -13,6 +13,9 @@
   body {
     width: 70%;
   }
+  #form {
+    max-width: 70%;
+  }
 }
 @media (max-width: 59em) {
   html {
@@ -21,6 +24,12 @@
   }
   body {
     width: 75%;
+  }
+  #form {
+    max-width: 80%;
+  }
+  #accordion {
+    grid-template-columns: 1fr;
   }
   .nav-list {
     grid-template-columns: repeat(3, 1fr);
@@ -37,6 +46,10 @@
   td {
     padding: 0.8rem 0.8rem 0.8rem 1.6rem;
   }
+  #form {
+    max-width: 90%;
+  }
+
   .nav-list {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -54,6 +67,12 @@
 @media (max-width: 34em) {
   body {
     width: 85%;
+  }
+  .faq-box {
+    padding: 1.5rem 2.5rem;
+  }
+  .faq-heading {
+    font-size: 2rem;
   }
   .nav-list {
     grid-template-columns: 1fr;
@@ -80,5 +99,8 @@
   }
   cite {
     font-size: 1.3rem;
+  }
+  #form {
+    max-width: 100%;
   }
 }
