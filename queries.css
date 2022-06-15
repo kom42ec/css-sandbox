@@ -34,6 +34,19 @@
   td {
     padding: 0.8rem 0.8rem 0.8rem 1.6rem;
   }
+  .nav-list {
+    flex-direction: column;
+  }
+  .header-container {
+    text-align: left;
+    padding: 0 3rem;
+  }
+  .header-container h1 {
+    font-size: 5.5rem;
+  }
+  .subtitle {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 34em) {
   body {
@@ -52,5 +65,14 @@
   }
   .form-group {
     margin-bottom: 1rem;
+  }
+  blockquote {
+    margin-left: 1rem;
+  }
+  .quote {
+    font-size: 2rem;
+  }
+  cite {
+    font-size: 1.3rem;
   }
 }
