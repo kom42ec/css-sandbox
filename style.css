@@ -477,14 +477,14 @@ input[type="reset"] {
   position: relative;
 }
 #pricing .popular {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   background-color: #fde24f;
   color: #001534;
   padding: 0.5rem 1rem;
   border-radius: 1rem;
   position: absolute;
-  top: 1rem;
-  left: 8.4rem;
+  top: 1.5%;
+  transform: translate(-50%, 0);
 }
 #pricing .btn-blue {
   background-color: var(--lightHeadline);
