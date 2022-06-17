@@ -7,6 +7,11 @@
   body {
     width: 65%;
   }
+  #pricing .btn {
+    width: 99%;
+    padding: 0.4rem;
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 75em) {
@@ -33,6 +38,13 @@
   }
   .nav-list {
     grid-template-columns: repeat(3, 1fr);
+  }
+  #pricing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #pricing .price-box {
+    border: 1px solid var(--lightHeadline);
+    border-radius: var(--borderRadius);
   }
 }
 @media (max-width: 44em) {
@@ -65,6 +77,11 @@
   }
   #text-form input {
     width: 40%;
+  }
+  #pricing .btn {
+    width: 80%;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 34em) {
@@ -108,5 +125,19 @@
   }
   #text-form input {
     width: 50%;
+  }
+  #pricing {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  #pricing ul {
+    padding: 0 4rem;
+  }
+  #pricing ul li p {
+    margin-top: 1rem;
+  }
+
+  #pricing .popular {
+    left: 12rem;
   }
 }

@@ -425,3 +425,73 @@ input[type="reset"] {
   padding: 1.2rem 2.4rem;
   width: auto;
 }
+/* PRICING */
+
+#pricing {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+#pricing p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+#pricing small {
+  display: block;
+  margin-top: 0;
+}
+#pricing .header-box {
+  background-color: var(--darkHeadline);
+  margin-bottom: 2rem;
+  padding-top: 0;
+}
+#pricing span {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1;
+}
+#pricing a {
+  display: inline-block;
+  width: 80%;
+}
+.price-box {
+  padding: 2rem;
+}
+#pricing ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+#pricing ul li p {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+#pricing .business-box {
+  background-color: var(--darkParagraph);
+  border-radius: var(--borderRadius);
+  position: relative;
+}
+#pricing .popular {
+  font-size: 1.2rem;
+  background-color: #fde24f;
+  color: #001534;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 8.4rem;
+}
+#pricing .btn-blue {
+  background-color: var(--lightHeadline);
+  color: var(--darkHeadline);
+  border: 1px solid var(--lightHeadline);
+}
+#pricing .btn-blue:hover {
+  background-color: var(--darkParagraph);
+  color: var(--darkBackground);
+}
