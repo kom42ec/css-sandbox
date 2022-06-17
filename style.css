@@ -386,3 +386,42 @@ input[type="reset"] {
 .faq-box.open {
   background-color: hsla(216, 45%, 81%, 0.2);
 }
+
+/* TEXT FORM */
+
+#text-form input {
+  display: inline;
+  width: 30%;
+  padding: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--darkParagraph);
+  border-radius: 0;
+}
+#text-form input:placeholder-shown {
+  text-align: center;
+  font-size: var(--smallText);
+  color: var(--darkParagraph);
+}
+#text-form label {
+  display: inline;
+  font-size: var(--smallText);
+  line-height: 1;
+}
+
+#text-form p {
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.user-terms {
+  margin-top: 0.5rem;
+}
+
+#text-form input[type="checkbox"] {
+  width: auto;
+}
+
+#text-form .text-submit {
+  padding: 1.2rem 2.4rem;
+  width: auto;
+}

@@ -63,6 +63,9 @@
   .subtitle {
     font-size: 2rem;
   }
+  #text-form input {
+    width: 40%;
+  }
 }
 @media (max-width: 34em) {
   body {
@@ -102,5 +105,8 @@
   }
   #form {
     max-width: 100%;
+  }
+  #text-form input {
+    width: 50%;
   }
 }
